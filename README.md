@@ -1,21 +1,33 @@
+姓名：竺雷 学号：17061636
 ## 题目1：建立一个mysql database, 包含以下两张表：
 
 ```sql
-mysql> show databases; 
-+--------------------+ 
-| Database | 
-+--------------------+ 
-| information_schema | 
-| mysql | 
-| performance_schema | 
-| sys | 
-+--------------------+ 
-4 rows in set (0.17 sec)
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
+| test               |
++--------------------+
+5 rows in set (0.00 sec)
 ```
-
-![](https://github.com/silverdays/mysql-test-1/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190603204721.png) 
+```sql
+mysql> show tables;
++----------------+
+| Tables_in_test |
++----------------+
+| biaoge1        |
+| biaoge2        |
++----------------+
+2 rows in set (0.00 sec)
+```
+![](https://github.com/harunoluna/mysql-test-1/blob/master/test%20table.JPG) 
 
 ## 题目2：如何join两张表
+select*form A join B on s_id=s_no
 
 ## 题目3： xxxx
 
